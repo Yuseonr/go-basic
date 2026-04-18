@@ -4,13 +4,14 @@
 // ========================================== L1 : Learn Go for Developer ==========================================
 
 package main
+
 import "fmt"
 
 func main1() {
 	fmt.Println("Starting Textio server...")
 }
 
-// ========================================== L2 : Basic Variables  ==========================================
+// ========================================== L2 : Declaring variable and Basic Variables  ==========================================
 
 func main2() {
 	// initialize variables here
@@ -22,6 +23,26 @@ func main2() {
 
 	fmt.Printf("%v %.2f %v %q\n", smsSendingLimit, costPerSMS, hasPermission, username)
 }
+
+func main2_1() {
+	var username string
+	username = "eddie_cabot"
+
+	var isAdmin bool
+	isAdmin = true
+
+	var permissions int
+	permissions = 0x1F
+
+	var costPerSMS float64
+	costPerSMS = 0.05
+
+	fmt.Println("username:", username)
+	fmt.Println("isAdmin:", isAdmin)
+	fmt.Println("permissions:", permissions)
+	fmt.Println("costPerSMS:", costPerSMS)
+}
+
 
 // ========================================== L3 : Short Variable declaration  ==========================================
 

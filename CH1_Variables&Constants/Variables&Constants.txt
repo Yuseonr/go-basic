@@ -25,7 +25,7 @@ fmt.Println(...):
     It prints the given string to the console
     followed by a new line.
 
-========================================== L2 : Basic Variables ==========================================
+========================================== L2 : Declaring variable and Basic Variables ==========================================
 
 bool: a boolean value, either true or false
 string: a sequence of characters
@@ -40,6 +40,31 @@ mySkillIssues = 42
 
 The first line, var mySkillIssues int, defaults the mySkillIssues variable to its zero value, 0. 
 On the next line, 42 overwrites the zero value.
+
+Basic Variables
+Some of Go's most common variable types are:
+
+int: a signed integer
+bool: a boolean value, either true or false
+string: a sequence of characters
+float64: a floating-point number
+byte: exactly what it sounds like: 8 bits of data
+And to use them, their values are set like this:
+
+var health int
+health = 100
+
+var isAwesome bool
+isAwesome = true
+
+var greeting string
+greeting = "Hello, world!"
+
+var pi float64
+pi = 3.14159
+
+var data byte
+data = 0xFF
 
 ========================================== L3 : Short Variable declaration ==========================================
 
