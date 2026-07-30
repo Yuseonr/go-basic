@@ -1,2 +1,2 @@
-# go-basic
+# basic-go
 Reposi for storing my go study
